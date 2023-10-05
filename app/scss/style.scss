@@ -4,7 +4,8 @@ body {
   background-color: #000000;
 }
 .content {
-  width: 1920px;
+  width: 100vw;
+  max-width: 1920px;
   display: block;
   overflow: hidden;
   margin: 0 auto;
@@ -17,13 +18,14 @@ body {
 }
 
 .section0 {
-  width: inherit;
-  height: inherit;
+  width: 100%;
   position: relative;
+  height: 892px;
   .hue-saturation-51 {
     overflow: hidden;
     height: 892px;
     background: url("/images/Hue_Saturation\ 5\ 1.png");
+    background-repeat: no-repeat;
   }
   .layer__left_right {
     width: 100%;
@@ -44,12 +46,12 @@ body {
     top: 0;
     z-index: 1;
     .mafia-costume__woman {
-      width: 577px;
-      height: 876px;
+      width: 30%;
+      height: 99%;
     }
     .mafia-costume__man {
-      width: 678px;
-      height: 876px;
+      width: 36%;
+      height: 99%;
     }
   }
   .layer-1573 {
@@ -57,12 +59,12 @@ body {
     position: absolute;
     display: flex;
     top: 0;
-    left: -286px;
+    left: -15%;
     flex-direction: column-reverse;
     z-index: 2;
     overflow: hidden;
     img {
-      width: 2609px;
+      width: 136%;
       height: 380px;
     }
   }
@@ -71,11 +73,11 @@ body {
     position: absolute;
     display: flex;
     top: 0;
-    left: -117px;
+    left: -6%;
     flex-direction: column-reverse;
     z-index: 3;
-    div {
-      width: 1977px;
+    img {
+      width: 103%;
       height: 172px;
     }
   }
@@ -85,13 +87,13 @@ body {
     position: absolute;
     top: 0;
     z-index: 4;
-    width: 2006px;
-    height: 892px;
-    background: url(/images/glow-1.png);
+    width: 105%;
+    height: 100%;
+    background: url('/images/glow-1.png');
     background-size: contain;
     mix-blend-mode: screen;
     background-repeat: no-repeat;
-    background-position: 79px;
+    background-position: 5%;
   }
   .logo {
     display: flex;
